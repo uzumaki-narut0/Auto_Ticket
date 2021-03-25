@@ -13,3 +13,7 @@ To run this, you must have Docker installed on your system
 * To build the application, type `docker build -t autotick .` on terminal 
 * Once build is complete, type `docker run autotick` to run the application
 
+**IMPORTANT**
+
+Since the app is dockerized, input file is hardcoded, since replace the `input.txt` with your `input.txt` or modify the same file to provide test cases.
+
