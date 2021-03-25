@@ -15,5 +15,5 @@ To run this, you must have Docker installed on your system
 
 **IMPORTANT**
 
-Since the app is dockerized, input file is hardcoded, since replace the `input.txt` with your `input.txt` or modify the same file to provide test cases.
+Since the app is dockerized, input file is hardcoded, simply replace the `input.txt` with your `input.txt` or modify the same file to provide test cases.
 
