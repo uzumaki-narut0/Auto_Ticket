@@ -10,6 +10,6 @@ To run this, you must have Docker installed on your system
 
 * Clone the project, go to the project folder using terminal.
 * To add / Change test cases, use the file `input.txt`
-* To build the application, type `docker build .` on terminal 
-* Once build is complete, type `docker run` to run the application
+* To build the application, type `docker build -t autotick .` on terminal 
+* Once build is complete, type `docker run autotick` to run the application
 

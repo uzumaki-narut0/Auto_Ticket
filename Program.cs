@@ -10,8 +10,9 @@ namespace AutoTicket
             string line;
             int counter = 0;
             IParkingLot _parkingLot = new ParkingLot();
+            
 
-            System.IO.StreamReader file = new System.IO.StreamReader(@".\input.txt");  
+            System.IO.StreamReader file = new System.IO.StreamReader(@"input.txt");  
             while((line = file.ReadLine()) != null)  
             {  
                 var inputArr = line.Split(" ");  
