@@ -9,8 +9,6 @@ namespace AutoTicket.Logic
     {
         
         private int _parkingLotSize;
-        private IList<BookingInfo> _bookings;
-
         private IList<Slot> _slots;
         public void InitializeParkingLot(int lotSize)
         {
@@ -51,7 +49,7 @@ namespace AutoTicket.Logic
             }
             else
             {
-                System.Diagnostics.Debug.WriteLine("Slots full, Unable to book");
+                System.Console.WriteLine("Slots full, Unable to book");
             }
         }
 
@@ -70,7 +68,7 @@ namespace AutoTicket.Logic
             
             // Reset Slot Info
             slot.IsAvailable = true;
-            slot.BookingInfo.VehicleNumber = string.Empty;
+            slot.BookingInfo = new BookingInfo{};
         }
 
         public void GetSlotNumbersByDriverAge(ushort age)
